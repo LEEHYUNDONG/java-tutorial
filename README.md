@@ -70,5 +70,12 @@ double[] doubleArray; double doubleArray[];
 String[] strArray; String stringArray[];
 ```
 
+### new 연산자로 배열 생성
+값의 목록을 가지고 있지 않지만, 향후 값들을 저장할 배열을 미리 만들고 싶다면 new 연산자로 다음과 같이 배열 객체를 생성시킬 수 있다.
 
+```
+타입[] 변수 = new 타입[길이];
+길이는 배열이 저장할 수 있는 값의 수를 말한다. new 연산자로 배열을 생성할 경우에는 이미 배열 변수가 선언된 후에도 가능하다.
+int[] int Array
+```
 
