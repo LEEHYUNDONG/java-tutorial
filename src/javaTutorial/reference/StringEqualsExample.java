@@ -15,7 +15,7 @@ public class StringEqualsExample {
         }
         strVar1 = null;
         System.out.println(strVar2);
-        
+
         String name1 = new String("helloe");
         String name2 = new String("helloe");
         if (name2 == name2) {
