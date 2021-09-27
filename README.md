@@ -79,3 +79,16 @@ String[] strArray; String stringArray[];
 int[] int Array
 ```
 
+## 열거 타입
+데이터 중에는 몇가지로 한정된 값만을 갖는 경우가 흔히 있다. 예를 들어 요일에 대한 데이터는 월~일 열거 타입은 몇 개의 열거 상수 중에서 하나의 상수를 저장하는 데이터 타입이다.
+
+```
+public enum week{
+	MONDAY,
+	TUESDAY,
+	.
+	.
+	.
+	SUNDAY
+}
+```
