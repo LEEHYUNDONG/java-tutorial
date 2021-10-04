@@ -18,3 +18,4 @@ public class ChildeEx {
         c.method2();
     }
 }
+//ER 키워드를 붙여서 부모 메소드를 호출할 수 있다.
