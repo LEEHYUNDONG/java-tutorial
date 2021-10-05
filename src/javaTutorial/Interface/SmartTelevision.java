@@ -1,23 +1,13 @@
 package javaTutorial.Interface;
 
-public class Television implements remotecontrol{
+public class SmartTelevision implements remotecontrol, Searchable{
     private int volume;
-    private boolean mute;
 
     public void turnOn(){
         System.out.println("Turn on the TV");
     }
     public void turnOff(){
         System.out.println("Turn off the Tv");
-    }
-    @Override
-    public void setMute(boolean m){
-        this.mute = m;
-        if (m){
-            System.out.println("TV muted");
-        }else{
-            System.out.println("TV unmuted");
-        }
     }
     public void setVol(int v){
         if (volume > remotecontrol.MAX_VOL){
@@ -29,5 +19,8 @@ public class Television implements remotecontrol{
             this.volume = v;
         }
         System.out.println("TV Volume :"+volume);
+    }
+    public void search(String url){
+        System.out.println(url+"을 검색합니다.");
     }
 }

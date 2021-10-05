@@ -7,5 +7,7 @@ public class remoteControlEx {
         rc.turnOn();
         rc.turnOff();
         rc.setVol(1000);
+        rc.setMute(true);
+        rc.setMute(false);
     }
 }
