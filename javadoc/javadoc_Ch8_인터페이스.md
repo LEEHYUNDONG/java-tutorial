@@ -50,3 +50,4 @@ interface nameOfTheInterface{
 
 - 정적 메소드
 객체가 없어도 인터페이스만으로 호출이 가능한다.
+
