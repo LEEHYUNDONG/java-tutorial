@@ -22,4 +22,10 @@ public class Car2 {
         this.color = color;
         this.maxSpeed = maxSpeed;
     }
+    Car2(String company, String model, String color, int maxSpeed){
+        this.company = company;
+        this.model = model;
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+    }
 }
